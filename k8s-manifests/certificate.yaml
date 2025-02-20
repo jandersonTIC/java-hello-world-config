@@ -1,0 +1,8 @@
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: java-app-cert
+  namespace: java-app
+spec:
+  domains:
+  - seu-dominio.com 
